@@ -1,0 +1,47 @@
+#hero{
+    background-image: url(https://picsum.photos/1000/500);
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    position: relative;
+    margin-top: 3.5rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+    outline: #f93f07ca solid 15px
+}
+    
+
+#hero .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+#hero .blur{
+    
+    background-color: #0f02024c;
+    backdrop-filter: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+#carousel{
+    width: 400px;
+    height:300px;
+
+}
