@@ -1,5 +1,10 @@
 <x-layout>
-    
+    @if(session('emailError'))
+    <div class="alert alert-danger my-5">
+            {{ session('emailError') }}
+        </div>
+    @endif
+
 
 <div class="container-fluid m-auto">
     <div class="row justify-content-center">

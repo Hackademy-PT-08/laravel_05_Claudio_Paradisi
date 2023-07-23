@@ -1,5 +1,9 @@
 <x-layout>
-
+    @if (session('emailSent'))
+        <div class="alert alert-success my-5">
+            {{ session('emailSent') }}
+        </div>
+    @endif
 
 
 <div class="container mx-auto my-5">
